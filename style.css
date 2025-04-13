@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111111;
+  color: #eeeeee;
+  margin: 0;
+  padding: 0;
+  padding-top: 60px; 
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #DC143C;
+}
+
+.content {
+  padding: 20px;
+}
+
+.float-card {
+  background-color: #212121;
+  padding: 10px;
+  border: 1px solid #DC143C;
+  margin-bottom: 15px;
+}
+
+.float-img {
+  float: left;
+  width: 80px;
+  height: auto;
+  margin-right: 15px;
+  border-radius: 6px;
+}
+
+.clear {
+  clear: both;
+}
+
+.float-card:hover {
+  background-color: #333333;
+}
+
